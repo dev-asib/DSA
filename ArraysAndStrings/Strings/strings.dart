@@ -2,18 +2,18 @@ void main() {
   String name = "Asib";
   print("Name: $name");
 
-  // Length of String
+  // Get the length of the string.
   print("Length of name: ${name.length}");
 
-  // Add a new String
+  // Create a new string by concatenating.
   String fullName = "Dev" + ' ' + name;
   print("Full Name: $fullName");
 
-  // Reverse String
+  // Reverse the string.
   String reversedName = name.split('').reversed.join();
   print("Reversed Name: $reversedName");
 
-  // Check Palindrome
+  // Check if the word is a palindrome.
   String word = "madam";
   bool isPalindrome = word == word.split('').reversed.join();
   print("Is $word a palindrome? $isPalindrome");
